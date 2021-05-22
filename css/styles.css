@@ -12,6 +12,14 @@ body {
   color: var(--text-color);
 }
 
+/* Text decoration for <a> */
+.logo,
+.menu-link,
+.contacts-link,
+.footer-contacts {
+  text-decoration: none;
+}
+
 /* Logo */
 .logo {
   font-family: var(--font-logo);
@@ -20,7 +28,6 @@ body {
   line-height: 31px;
   /* identical to box height */
   letter-spacing: 0.03em;
-  text-decoration: none;
 }
 
 .logo-web {
@@ -46,7 +53,6 @@ body {
 
 .menu-link {
   color: var(--title-color);
-  text-decoration: none;
 }
 
 .menu-link:hover,
@@ -65,7 +71,6 @@ body {
 
 .contacts-link {
   color: #757575;
-  text-decoration: none;
 }
 
 .contacts-link:hover,
@@ -96,6 +101,7 @@ body {
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   color: #fff;
+  cursor: pointer;
 }
 
 /* Features */
@@ -187,7 +193,6 @@ body {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-  text-decoration: none;
 }
 
 .footer-contacts:hover,
