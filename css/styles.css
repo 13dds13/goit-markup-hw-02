@@ -236,3 +236,22 @@ body {
   color: #fff;
   background-color: var(--accent-color);
 }
+
+/* Projects */
+.projects-list {
+  list-style-type: none;
+}
+
+.project-name {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: var(--title-color);
+}
+
+.project-type {
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+}
