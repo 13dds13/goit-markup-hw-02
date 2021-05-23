@@ -196,6 +196,7 @@ body {
 }
 
 .footer-address {
+  font-style: inherit;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
