@@ -18,6 +18,7 @@ body {
 
 /* Text decoration for <a> */
 .logo,
+.current,
 .menu-link,
 .contacts-link,
 .footer-contacts {
